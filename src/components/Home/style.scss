@@ -1,0 +1,119 @@
+.home {
+    min-height: 100vh;
+    justify-content: center;
+    padding: 50px 0;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+
+    .logout {
+        position: fixed;
+        right: 20px;
+        top: 10px;
+    }
+
+    &-body {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+
+        &__header {
+            display: flex;
+            justify-content: center;
+        }
+
+        &__title {
+            color: #fff;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .add {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            justify-content: center;
+            margin-top: 50px;
+
+            &-input {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 1;
+
+                input {
+                    padding: 0 12px;
+                    outline: none;
+                    border: none;
+                    flex: 1;
+                    height: 40px;
+
+                }
+
+                .bg-icon {
+                    width: 50px;
+                    height: 40px;
+                    display: flex;
+
+
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #198754;
+                    cursor: pointer;
+
+                    .icon-add {
+                        color: #fff;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    &-body-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        .list-item {
+            display: flex;
+            width: 80%;
+            align-items: center;
+            justify-content: center;
+            margin: 18px 0;
+
+
+            .list-item__content {
+                flex: 1;
+                background-color: #fff;
+                color: #333;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                padding: 10px 0;
+                padding-left: 20px;
+                font-weight: bolder;
+            }
+
+            .list-item__icon {
+                width: 50px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                .icon {
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+
+        }
+    }
+
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 80%;
+}
